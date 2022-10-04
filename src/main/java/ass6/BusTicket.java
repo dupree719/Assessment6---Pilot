@@ -7,6 +7,5 @@ public class BusTicket extends Ticket{
 
     @Override
     public void printPaymentAmount() {
-
     }
 }

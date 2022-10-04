@@ -28,6 +28,6 @@ public class CrewMember extends Person implements Servable, Payable{
 
     @Override
     public void printPaymentAmount() {
-
+        System.out.println(salary);
     }
 }

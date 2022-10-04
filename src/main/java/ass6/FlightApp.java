@@ -9,7 +9,9 @@ public class FlightApp {
         }
     }
     public static void printAmountForEachThingThatIsPayable(Payable[] payableList){
-//        System.out.println(Ticket.price);
+        for (int i = 0; i < payableList.length; i++) {
+            System.out.println(payableList.length(i));
+        }
 
     }
     public static void sortAndPrintCrewMembersByJob(ArrayList<FlightCrewJob> jobList){
